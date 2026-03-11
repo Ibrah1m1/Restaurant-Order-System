@@ -271,10 +271,11 @@ Restaurant-Order-System/
 
 | Name | Role |
 |------|------|
-| **Ibrahim Eissa** |Leader|
-| **Abdullah Misar** | Member |
-| **Ryan Khaled** | Member |
-| **Yazeed Bafaqih** |Member|
+| **Ibrahim Eissa** |Leader,Core Logic, Data Structures|
+| **Eyad Alghamdi** | Order Management, Testing |
+| **Order Management, Testing** | Order Management, Testing |
+| **Abdul Malik Al-Zahrani** |Stock Management, Bug Fixes|  
+
 
 ## 📧 Contact
 
