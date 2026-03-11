@@ -86,10 +86,8 @@ flowchart TD
     style A fill:#4CAF50,color:white
     style H fill:#2196F3,color:white
     style I fill:#FF5722,color:white
----
 
-```
-## 🎨 User Menu
+---## 🎨 User Menu
 ╔════════════════════════════════════╗ 
 
 ║ RESTAURANT ORDER MANAGEMENT ║ 
