@@ -259,17 +259,29 @@ Restaurant-Order-System/
 ### 🖼️ Sample Output
 
 ╔════════════════════════════════════╗
+
 ║   RESTAURANT ORDER MANAGEMENT      ║
+
 ╠════════════════════════════════════╣
+
 ║  Enter choice: 1                   ║
+
 ║                                    ║
+
 ║  >> Place New Order                ║
+
 ║  Order Type: [1] Dine-in  [2] Delivery: 2
+
 ║  Table/Address: King Fahd St.      ║
+
 ║  Items: Chicken Breast x2, Rice x1 ║
+
 ║                                    ║
+
 ║  ✓ Order #1001 placed successfully!║
+
 ║  ✓ Stock updated.                  ║
+
 ╚════════════════════════════════════╝
 
 
