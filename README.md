@@ -87,7 +87,8 @@ flowchart TD
 ```
 
 
----## 🎨 User Menu
+
+## 🎨 User Menu
 ╔════════════════════════════════════╗ 
 
 ║ RESTAURANT ORDER MANAGEMENT ║ 
