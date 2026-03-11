@@ -217,9 +217,25 @@ private void restoreStock(HashMap<String, Integer> items) {
 ```
 ### 📁 Project Structure
 ```
-
-Restaurant-Order-System/ ├── src/ │ ├── Main.java │ ├── classes/ │ │ ├── MealOrder.java │ │ ├── KitchenQueue.java │ │ ├── IngredientStock.java │ │ ├── CancelledOrderNode.java │ │ ├── CancelledOrdersList.java │ │ └── ServedOrderHistory.java │ └── utils/ │ └── MenuHandler.java └── docs/ ├── project_report.pdf └── user_manual.pdf
-
+Restaurant-Order-System/
+├── src/
+│   ├── Main.java
+│   ├── classes/
+│   │   ├── MealOrder.java
+│   │   ├── KitchenQueue.java
+│   │   ├── IngredientStock.java
+│   │   ├── CancelledOrderNode.java
+│   │   ├── CancelledOrdersList.java
+│   │   └── ServedOrderHistory.java
+│   └── utils/
+│       └── MenuHandler.java
+├── docs/
+│   ├── project_report.pdf
+│   └── user_manual.pdf
+├── test/
+│   ├── TestCases.java
+│   └── sample_output.txt
+└── README.md
 ```
 
 ### 🖼️ Sample Output
