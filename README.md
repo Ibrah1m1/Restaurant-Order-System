@@ -67,11 +67,9 @@ A menu-driven console application that:
 | **CancelledOrdersList** | Stores cancelled order records | Linked List |
 | **ServedOrderHistory** | Logs completed orders for reference | Stack-like Linked List |
 
-
 ## 📊 Data Flow Diagram
 
 ```mermaid
-
 flowchart TD
     A[User Menu] --> B{Place Order}
     B --> C[Check Ingredient Stock]
@@ -86,6 +84,8 @@ flowchart TD
     style A fill:#4CAF50,color:white
     style H fill:#2196F3,color:white
     style I fill:#FF5722,color:white
+```
+
 
 ---## 🎨 User Menu
 ╔════════════════════════════════════╗ 
