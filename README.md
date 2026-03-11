@@ -68,37 +68,23 @@ A menu-driven console application that:
 | **ServedOrderHistory** | Logs completed orders for reference | Stack-like Linked List |
 
 ### Data Flow Diagram
-┌─────────────────┐ 
-│ User Menu │ 
-└────────┬────────┘ 
+## 📊 Data Flow Diagram
 
-│
-
-┌────▼────┐ 
-│ Place │ 
-│ Order │ 
-└────┬────┘ 
-
-│ 
-
-┌────▼────┐ ┌─────────────────┐ 
-│ Check │────►│ IngredientStock │
-│ Stock │ │ (HashMap) │
-└────┬────┘ └─────────────────┘ 
-
-│ 
-
-┌────▼────┐ 
-│ Add to │ 
-│Queue │
-└────┬────┘ 
-
-│
-
-┌────▼────┐ ┌─────────────────┐ 
-│ Serve/ │────►│ ServedOrderHistory│
-│ Cancel │ │ (Stack) │
-└─────────┘ └─────────────────┘
+```mermaid
+flowchart TD
+    A[User Menu] --> B{Place Order}
+    B --> C[Check Ingredient Stock]
+    C --> D{Stock Available?}
+    D -->|Yes| E[Add to Queue]
+    D -->|No| F[Reject Order]
+    E --> G{Serve/Cancel}
+    G -->|Serve| H[ServedOrderHistory Stack]
+    G -->|Cancel| I[CancelledOrdersList]
+    I --> J[Restore Stock]
+    
+    style A fill:#4CAF50,color:white
+    style H fill:#2196F3,color:white
+    style I fill:#FF5722,color:white
 
 
 
@@ -129,6 +115,7 @@ A menu-driven console application that:
 
 ╚════════════════════════════════════╝
 
+```
 
 ---
 
