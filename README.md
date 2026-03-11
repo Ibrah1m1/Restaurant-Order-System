@@ -279,5 +279,4 @@ Restaurant-Order-System/
 
 Made with ❤️ by the Healthify Team
 
-│   └── test_cases.sql
-└── README.md
+
