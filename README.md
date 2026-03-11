@@ -71,40 +71,62 @@ A menu-driven console application that:
 ┌─────────────────┐ 
 │ User Menu │ 
 └────────┬────────┘ 
+
 │
+
 ┌────▼────┐ 
 │ Place │ 
 │ Order │ 
 └────┬────┘ 
+
 │ 
+
 ┌────▼────┐ ┌─────────────────┐ 
 │ Check │────►│ IngredientStock │
 │ Stock │ │ (HashMap) │
-└────┬────┘ └─────────────────┘ │ 
+└────┬────┘ └─────────────────┘ 
+
+│ 
+
 ┌────▼────┐ 
 │ Add to │ 
 │Queue │
 └────┬────┘ 
-│ 
+
+│
+
 ┌────▼────┐ ┌─────────────────┐ 
 │ Serve/ │────►│ ServedOrderHistory│
 │ Cancel │ │ (Stack) │
 └─────────┘ └─────────────────┘
 
+
+
 ---
 
 ## 🎨 User Menu
 ╔════════════════════════════════════╗ 
+
 ║ RESTAURANT ORDER MANAGEMENT ║ 
+
 ╠════════════════════════════════════╣ 
+
 ║ 1. Add Order ║ 
+
 ║ 2. Serve Order ║ 
+
 ║ 3. Cancel Order ║ 
+
 ║ 4. Show Current Orders (Queue) ║ 
+
 ║ 5. Show Served Orders ║ 
+
 ║ 6. Show Cancelled Orders ║
+
 ║ 7. Show Kitchen Stock ║ 
+
 ║ 8. Exit ║
+
 ╚════════════════════════════════════╝
 
 
@@ -209,24 +231,43 @@ private void restoreStock(HashMap<String, Integer> items) {
 }
 ```
 ### 📁 Project Structure
+
 Restaurant-Order-System/
+
 ├── src/
+
 │   ├── Main.java
+
 │   ├── classes/
+
 │   │   ├── MealOrder.java
+
 │   │   ├── KitchenQueue.java
+
 │   │   ├── IngredientStock.java
+
 │   │   ├── CancelledOrderNode.java
+
 │   │   ├── CancelledOrdersList.java
+
 │   │   └── ServedOrderHistory.java
+
 │   └── utils/
+
 │       └── MenuHandler.java
+
 ├── docs/
+
 │   ├── project_report.pdf
+
 │   └── user_manual.pdf
+
 ├── test/
+
 │   ├── TestCases.java
+
 │   └── sample_output.txt
+
 └── README.md
 
 
